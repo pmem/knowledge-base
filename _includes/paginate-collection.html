@@ -1,0 +1,36 @@
+<!--
+    Showing buttons to move to the first, last, next and previous list of posts (pager buttons).
+-->
+{% if paginator.total_pages > 1 %}
+<ul class="uk-pagination uk-flex-center">
+    {% if paginator.first_page %}
+        <li><a class="uk-link-text" href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">First</a></li>
+    {% endif %}
+
+<!--
+    {% if paginator.previous_page %}
+        <li><a class="" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a></li>
+    {% endif %}
+-->
+
+    {% if paginator.page_trail %}
+      {% for trail in paginator.page_trail %}
+        {% if page.url == trail.path %}
+            <li><a class="uk-active" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}"> {{ trail.num }} </a></li>
+        {% else %}
+            <li><a class="" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}"> {{ trail.num }} </a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+<!--
+    {% if paginator.next_page %}
+        <li><a class="" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a></li>
+    {% endif %}
+-->
+
+     {% if paginator.last_page %}
+        <li><a class=" " href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">Last</a></li>
+    {% endif %}
+</ul>
+{% endif %}

@@ -1,0 +1,39 @@
+# Mobile menu navigation links
+
+- title: Home
+  url: /
+
+- title: Knowledge Base
+  dropdown:
+
+#  - title: Getting Started
+#    url: /getting_started/
+#
+#  - title: Setup and Configuration
+#    url: /setup/
+#
+  - title: Development
+    url: /development/
+
+  - title: Problem Resolution
+    url: /problem/
+
+  - title: How To
+    url: /howto/
+
+  - title: Frequently Asked Questions
+    url: /faq/
+
+  - title: Applications 
+    url: /apps/
+#  - title: Product Alerts
+#    url: /alert/
+#
+#  - title: Announcement
+#    url: /announcement/
+
+- title: Docs
+  url: https://docs.pmem.io/
+
+- title: Blog
+  url: https://pmem.io/blog/

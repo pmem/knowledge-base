@@ -1,0 +1,17 @@
+<h5>Disclaimer</h5>
+{% include disclaimer.html %}
+
+{% if page.docid %}
+<h5>Document ID</h5>
+{{ page.docid }}
+{% endif %}
+
+{% if page.creation_date %}
+<h5>Creation Date</h5>
+{{ page.creation_date | date_to_string }}
+{% endif %}
+
+{% if page.modified_date %}
+<h5>Modified Date</h5>
+{{ page.modified_date | date_to_string }}
+{% endif %}

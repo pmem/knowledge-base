@@ -1,0 +1,63 @@
+# Navbar left menu navigation links
+
+left:
+  - title: Home
+    url: /
+
+  - title: Knowledge Base
+    dropdown:
+
+#      - title: Getting Started
+#        url: /getting_started/
+#
+#      - title: Setup and Configuration 
+#        url: /setup/
+
+      - title: Development 
+        url: /development/
+
+      - title: Problem Resolution 
+        url: /problem/
+
+      - title: How To 
+        url: /howto/
+
+      - title: Frequently Asked Questions 
+        url: /faq/
+
+      - title: Applications 
+        url: /apps/
+#      - title: Product Alerts 
+#        url: /alert/
+#
+#      - title: Announcement 
+#        url: /announcement/
+#
+#      - title: Videos 
+#        url: /videos/
+
+  - title: Documentation
+    url: https://docs.pmem.io/ 
+
+  - title: Blog
+    url: https://pmem.io/blog/
+
+# Navbar right menu navigation links
+
+right:
+
+  # - title: Changelog
+  #   url: /changelog-timeline/
+  #   button: primary-outline
+
+  # - title: Contact
+  #   url: /contact/
+  #   button: success
+
+  # - title: Changelog
+  #   url: /contact/
+  #   button: default
+
+  # - title: Contact
+  #   url: /contact/
+  #   button: primary

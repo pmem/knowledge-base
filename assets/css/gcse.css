@@ -1,0 +1,26 @@
+.gsc-input-box {
+    border: 1px solid #f5f5f5;
+    background: #fff;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: none;
+    height: 39px;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.gsc-input-box:hover {
+    box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+    border-color: rgba(223,225,229,0);
+}
+
+td.gsc-search-button {
+    visibility: hidden;
+}
+
+.gsib_b {
+    padding-right: 12px !important;
+}

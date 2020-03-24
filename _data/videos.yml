@@ -1,0 +1,9 @@
+# Featured Videos 
+
+- title: Provision Intel® Optane™ DC Persistent Memory in Linux* 
+  desc: In this webinar, we demonstrate how to provision Intel® Optane™ DC persistent memory in Linux* using the open source ipmctl and ndctl utilities. 
+  url: https://players.brightcove.net/740838651001/default_default/index.html?videoId=6037813225001 
+
+- title: 2019 Stanford Conference - Introduction to Intel Optane Data Center Persistent Memory
+  desc: In this video from the 2019 Stanford HPC Conference, Usha Upadhyayula & Tom Krueger from Intel present an Introduction to Intel Optane Data Center Persistent Memory. 
+  url: https://youtu.be/1QEq0EUErKM 

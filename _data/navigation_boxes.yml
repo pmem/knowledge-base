@@ -1,0 +1,56 @@
+# Boxes include navigation
+
+# - title: Getting Started
+#   desc: New to persistent memory? Get yourself up and running in no time. 
+#   icon: cog
+#   url: getting_started
+
+# - title: Setup and Configuration 
+#   desc: Installation and Configuration Guides 
+#   icon: cog
+#   url: setup 
+
+- title: How To
+  desc: Look here for help performing tasks including setup & configuration.
+  icon: question
+  url: howto
+
+- title: Problem Resolution
+  desc: Have a problem or error?  Look here for answers.
+  icon: bolt
+  url: problem
+
+- title: Documentation 
+  desc: Learn how to install, configure, and use persistent memory utilities and tools 
+  icon: file-text
+  url: https://docs.pmem.io
+
+- title: Development 
+  desc: Looking for API information or code tutorials and examples? 
+  icon: code
+  url: development
+
+- title: FAQ 
+  desc: Look here for frequently answered questions. 
+  icon: comments
+  url: faq
+
+- title: Applications 
+  desc: Information and resources for applications that have persistent memory features 
+  icon: desktop
+  url: apps
+
+#- title: Alert Information 
+#  desc: Critical information 
+#  icon: warning
+#  url: alert
+
+#- title: Announcement 
+#  desc: Informational announcements 
+#  icon: info
+#  url: announcement
+
+#- title: Videos  
+#  desc: Watch short tutorials, screencasts, and event replays 
+#  icon: youtube
+#  url: videos

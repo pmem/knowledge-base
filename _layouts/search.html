@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+
+  <div class="uk-section">
+      <div class="uk-container">
+<div class="uk-section section-hero uk-position-relative uk-scrollspy-inview uk-animation-slide-bottom-medium" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true" style="">
+            <div class="uk-container uk-container-small">
+                <h1 class="uk-heading-primary uk-text-center uk-margin-remove-top">How can we help you?</h1>
+                <p class="uk-text-lead uk-text-center">Search or browse in depth persistent memory related articles, from basic setup to development</p>
+                <div class="hero-search">
+                    <!-- Html Elements for Search -->
+		    <div class="uk-position-relative">
+			<form method="GET" target="_self" action="/search/" class="uk-search uk-search-default uk-width-1-1" name="search-hero">
+                            <span class="uk-search-icon-flip uk-search-icon uk-icon" data-uk-search-icon=""><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="search-icon"><circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7"></circle><path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path></svg></span>
+                            <input id="search-hero" class="uk-search-input uk-box-shadow-large" type="search" name="q" placeholder="Search for answers" autocomplete="off">
+                        </form>
+			<script async src="https://cse.google.com/cse.js?cx={{ site.gce-engine-id }}"></script>
+			<div class="gcse-searchresults-only"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>

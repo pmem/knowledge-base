@@ -1,0 +1,172 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site title and description
+title:              kb.pmem.io
+description:        Persistent Memory Knowledge Base 
+lang:               en
+
+# Site subpath, e.g. /blog
+baseurl:            ""
+
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title/
+
+# Site base hostname & protocol, e.g. http://example.com
+url:                "https://kb.pmem.io"
+
+# Site logo # e.g. logo.png, upload logo image file to /uploads/ folder
+logo:               
+
+navbar:
+    sticky:         true
+    search:         true
+
+# Google Custom Search
+# Get this from the 'Setup -> Search engine ID' section on https://cse.google.com/cse/setup/basic
+gce-engine-id:	    013996151090288251857:odeztdey5mo
+  
+# Default author settings
+author:
+    name:           Pete Seth
+    title:          Lead Developer  
+    avatar:         avatar-tom.png
+
+# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
+authors:
+    john:
+      name:         John Brown
+      title:        Support     
+      avatar:       avatar-john.png
+    evan:
+      name:         Evan Wells
+      title:        Support    
+      avatar:       avatar-evan.png
+
+# Social icons displayed in footer
+social:
+    email:
+    website:	    
+    facebook:       
+    flickr:
+    dribbble:
+    github:	    
+    googleplus:
+    instagram:      
+    linkedin:
+    pinterest:
+    twitter:        
+    vimeo:          
+    youtube:	    
+
+# Share button
+share:
+    post:           true 	# Display share buttons on a post page
+    doc:            true 	# Display share buttons on a doc page
+    twitter:        username 	# Enable by adding Twitter handle 
+    facebook:       true 	# Enable by setting true (Facebook handle not required)
+
+# Default footer image settings
+# footer:
+#     copyright:      "Copyright(&copy) pmem.io 2019 . All rights reserved."
+
+# Disqus comments shortname, requires Disqus account https://disqus.com/
+disqus:
+    shortname:      # 1234
+
+# Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics:   UA-74199634-1
+
+# Number of posts displayed on blog page
+#paginate:           10
+
+# Blog path
+#paginate_path:      "/blog/:num/"
+
+# Site configuration for the Jekyll 3 Pagination Gem (jekyll-paginate-v2)
+# jekyll-paginate-v2 replaces the default jekyll-pagenate v1.x plugin
+# See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
+pagination:
+    enabled: true
+    per_page: 10
+
+# Path to post content assets directory i.e post images, pdfs etc
+uploads:            /uploads/
+
+# Build settings
+markdown:           kramdown
+highlighter:        rouge
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-avatar
+  - jekyll-paginate-v2
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+sass:
+  style:            compressed
+
+# All docs for all collections are stored under 'docs' in the base directory
+# collections_dir: docs
+
+# Declare whether to create individual html pages for each collection doc
+collections:
+  alert:
+    output:         true
+  announcement:
+    output:         true
+  apps:
+    output:         true
+  changelogs:
+    output:         false
+  development:
+    output:	    true
+  docs:
+    output:         true
+  events:
+    output: 	    true
+    permalink:      "/events/:date/:name"
+  faq:
+    output:         true
+  getting_started:
+    output:         true
+  howto:
+    output:         true
+  problem:
+    output:         true
+  setup:
+    output:         true
+  troubleshooting:
+    output:	    true
+  videos:
+    output:         true
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path:         ""
+      type:         posts
+    values:
+      layout:       post
+  # _docs
+  - scope:
+      path:         ""
+      type:         docs
+    values:
+      layout:       doc
+  # All Collections 
+  # Note: To set values for each collection, set 'type: <collection name>', eg: 'type: howto'
+  - scope:
+      path:         ""
+    values:
+      layout:       page
+
