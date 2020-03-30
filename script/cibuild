@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# halt script on error
+set -e 
+
+# Build the static site using jekyll
+bundle exec jekyll build
+
+# This file tells gh-pages that there is no need to build the site automatically
+touch ./_site/.nojekyll 

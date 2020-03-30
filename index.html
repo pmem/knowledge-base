@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<html lang="en">
+
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>kb.pmem.io | Persistent Memory Knowledge Base</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="kb.pmem.io" />
+<meta name="author" content="Pete Seth" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Persistent Memory Knowledge Base" />
+<meta property="og:description" content="Persistent Memory Knowledge Base" />
+<link rel="canonical" href="https://kb.pmem.io/" />
+<meta property="og:url" content="https://kb.pmem.io/" />
+<meta property="og:site_name" content="kb.pmem.io" />
+<script type="application/ld+json">
+{"description":"Persistent Memory Knowledge Base","@type":"WebSite","author":{"@type":"Person","name":"Pete Seth"},"url":"https://kb.pmem.io/","name":"kb.pmem.io","headline":"kb.pmem.io","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="/uploads/favicon.png" >
+  <link rel="alternate" type="application/rss+xml" title="kb.pmem.io" href="/feed.xml">
+  <script src="/assets/js/main.js"></script>
+  
+  
+</head>
+
+
+    <body>
+
+    
+        
+
+
+
+<header class="uk-background-center-center uk-background-cover" style="">
+    <div class="uk-overlay-header" style="">
+
+        <div data-uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+    <nav class="uk-navbar-container">
+        <div class="uk-container">
+            <div data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item uk-logo uk-visible@m" href="/">kb.pmem.io</a>
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Docs</span></a>
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li class="uk-active"><a href="/" >Home</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="#">Knowledge Base</a>
+                                        
+                                            <div class="uk-navbar-dropdown">
+                                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/development/">Development</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/problem/">Problem Resolution</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/howto/">How To</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/faq/">Frequently Asked Questions</a></li>
+                                                    
+                                                    
+                                                    
+                                                        
+                                                        
+                                                        <li><a href="/apps/">Applications</a></li>
+                                                    
+                                                    
+                                                </ul>
+                                            </div>
+                                        
+                                        </li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://docs.pmem.io/" target="_blank" >Documentation</a></li>
+                                                                                                        
+                                
+                            
+                        
+                            
+                            
+                            
+                                
+                                    
+                                        <li><a href="https://pmem.io/blog/" target="_blank" >Blog</a></li>
+                                                                                                        
+                                
+                            
+                        
+                    </ul>
+                </div>
+                <div class="uk-navbar-center uk-hidden@m">
+                    <a class="uk-navbar-item uk-logo" href="/">kb.pmem.io</a>
+                </div>
+                <div class="uk-navbar-right">
+                    
+                        
+                    
+
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        
+                    </ul>
+
+                    
+                        <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle><span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span></a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+        <div class="uk-section section-hero uk-position-relative" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+            <div class="uk-container uk-container-small">
+                
+                <h1 class="uk-heading-primary uk-text-center uk-margin-remove-top">How can we help you?</h1>
+                <p class="uk-text-lead uk-text-center">Search or browse in depth persistent memory related articles, from basic setup to development</p>
+
+                
+
+                <div class="hero-search">
+
+                    <!-- Html Elements for Search -->
+		    <div class="uk-position-relative">
+			<form method="GET" target="_self" action="/search/" class="uk-search uk-search-default uk-width-1-1" name="search-hero">
+                            <span class="uk-search-icon-flip" data-uk-search-icon></span>
+                            <input id="search-hero" class="uk-search-input uk-box-shadow-large" type="search" name="q" placeholder="Search for answers" autocomplete="off">
+                        </form>
+                    </div>
+
+                </div>
+                
+
+            </div>
+        </div>
+
+    </div>
+</header>
+
+    
+
+    
+    
+<div class="uk-section">
+    <div class="uk-container">
+
+        
+            <h2 class="uk-h1 uk-text-center">Browse Topics</h2>
+        
+
+        <p class="uk-text-lead uk-text-center">Choose an option that you need help with or search above</p>
+
+        <div class="uk-child-width-1-3@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid="">
+        
+            
+            
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="howto"></a>
+                    
+                    <span data-uk-icon="icon: question; ratio: 3.4" class=""></span>
+                    
+                    <h3 class="uk-card-title uk-margin">How To</h3>
+                    
+                    <p>Look here for help performing tasks including setup &amp; configuration.</p>
+                    
+                </div>
+            </div>
+            
+        
+            
+            
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="problem"></a>
+                    
+                    <span data-uk-icon="icon: bolt; ratio: 3.4" class=""></span>
+                    
+                    <h3 class="uk-card-title uk-margin">Problem Resolution</h3>
+                    
+                    <p>Have a problem or error?  Look here for answers.</p>
+                    
+                </div>
+            </div>
+            
+        
+            
+            
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="https://docs.pmem.io"></a>
+                    
+                    <span data-uk-icon="icon: file-text; ratio: 3.4" class=""></span>
+                    
+                    <h3 class="uk-card-title uk-margin">Documentation</h3>
+                    
+                    <p>Learn how to install, configure, and use persistent memory utilities and tools</p>
+                    
+                </div>
+            </div>
+            
+        
+            
+            
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="development"></a>
+                    
+                    <span data-uk-icon="icon: code; ratio: 3.4" class=""></span>
+                    
+                    <h3 class="uk-card-title uk-margin">Development</h3>
+                    
+                    <p>Looking for API information or code tutorials and examples?</p>
+                    
+                </div>
+            </div>
+            
+        
+            
+            
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="faq"></a>
+                    
+                    <span data-uk-icon="icon: comments; ratio: 3.4" class=""></span>
+                    
+                    <h3 class="uk-card-title uk-margin">FAQ</h3>
+                    
+                    <p>Look here for frequently answered questions.</p>
+                    
+                </div>
+            </div>
+            
+        
+            
+            
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="apps"></a>
+                    
+                    <span data-uk-icon="icon: desktop; ratio: 3.4" class=""></span>
+                    
+                    <h3 class="uk-card-title uk-margin">Applications</h3>
+                    
+                    <p>Information and resources for applications that have persistent memory features</p>
+                    
+                </div>
+            </div>
+            
+        
+        </div>
+
+    </div>
+</div>
+
+<!-- 
+<div class="uk-section section-featured">
+    <div class="uk-container uk-container-small">
+
+        
+        <h2 class="uk-h1 uk-text-center">Popular Articles</h2>
+        
+
+        
+            <p class="uk-text-center uk-text-lead">Enjoy our most popular articles from the knowledge base</p>
+        
+        
+        <ul class="uk-list uk-list-large uk-margin-medium-top">
+        
+	    
+                
+            
+        
+	    
+                
+            
+        
+	    
+                
+            
+        
+	    
+                
+            
+                
+            
+                
+            
+                
+            
+        
+	    
+                
+            
+        
+	    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                <li><a class="uk-box-shadow-hover-small" href="/docs/faq/">Frequently asked questions section</a></li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                <li><a class="uk-box-shadow-hover-small" href="/docs/media/">Adding media to post and doc content</a></li>
+                
+            
+                
+            
+                
+            
+                
+                <li><a class="uk-box-shadow-hover-small" href="/docs/posts/">Creating your first post in Jekyll</a></li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                <li><a class="uk-box-shadow-hover-small" href="/docs/videos/">Video lightbox boxes section</a></li>
+                
+            
+        
+	    
+        
+	    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+	    
+                
+            
+        
+	    
+                
+            
+                
+            
+                
+            
+                
+            
+        
+	    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+	    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+	    
+                
+            
+        
+	    
+                
+            
+        
+	    
+        
+        </ul>
+
+    </div>
+</div>
+
+
+ -->
+
+<!-- 
+
+<div class="uk-section section-videos">
+    <div class="uk-container">
+
+        
+            <h2 class="uk-h1 uk-text-center">Videos</h2>
+        
+
+        <p class="uk-text-lead uk-text-center">Watch our most popular videos including tutorials, screencasts, and event replays</p>
+
+        <div class="uk-child-width-1-3@m uk-grid-match uk-text-center uk-margin-medium-top" data-uk-grid data-uk-lightbox>
+        
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="https://players.brightcove.net/740838651001/default_default/index.html?videoId=6037813225001" data-caption="Provision Intel® Optane™ DC Persistent Memory in Linux*"></a>
+                    <span data-uk-icon="icon: play-circle; ratio: 3.4" class=""></span>
+                    <h3 class="uk-card-title uk-margin">Provision Intel® Optane™ DC Persistent Memory in Linux*</h3>
+                    
+                    <p>In this webinar, we demonstrate how to provision Intel® Optane™ DC persistent memory in Linux* using the open source ipmctl and ndctl utilities.</p>
+                    
+                </div>
+            </div>
+        
+            <div>
+                <div class="uk-card uk-card-default uk-box-shadow-small uk-box-shadow-hover-medium uk-card-body uk-inline border-radius-large border-xlight">
+                    <a class="uk-position-cover" href="https://youtu.be/1QEq0EUErKM" data-caption="2019 Stanford Conference - Introduction to Intel Optane Data Center Persistent Memory"></a>
+                    <span data-uk-icon="icon: play-circle; ratio: 3.4" class=""></span>
+                    <h3 class="uk-card-title uk-margin">2019 Stanford Conference - Introduction to Intel Optane Data Center Persistent Memory</h3>
+                    
+                    <p>In this video from the 2019 Stanford HPC Conference, Usha Upadhyayula & Tom Krueger from Intel present an Introduction to Intel Optane Data Center Persistent Memory.</p>
+                    
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+</div> -->
+
+<div class="uk-section">
+    <div class="uk-container uk-container-small">
+
+        
+            <h2 class="uk-h1 uk-text-center">Frequently asked questions</h2>
+        
+
+        
+            <p class="uk-text-center uk-text-lead">Find quick answers to frequently asked questions</p>
+        
+
+        
+
+        <ul class="uk-margin-medium-top" data-uk-accordion="multiple: true">
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Can I install persistent memory and a GPU in my system?</a>
+                    <div class="article-content uk-accordion-content link-primary"><h1 id="applies-to">Applies To</h1>
+
+<ul>
+  <li>Intel® Optane™ Persistent Memory</li>
+  <li>NVDIMM-N</li>
+  <li>GPU</li>
+</ul>
+
+<h1 id="answer">Answer</h1>
+
+<p>It is recommended to seek advice from the server OEM/ODM directly. While it is possible to support GPUs and persistent memory in the same system, several factors need to be considered which include, but are not limited to the following:</p>
+
+<ul>
+  <li>Server size (1U, 2U, 4U, etc)</li>
+  <li>Power Supplies</li>
+  <li>Internal and external cooling functions - Air cooled, liquid cooled, or hybrid</li>
+  <li>The type and quantity of persistent memory modules or devices within the system with their power &amp; thermal requirements</li>
+  <li>The make and model of the GPU with its power and cooling requirements</li>
+</ul>
+
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Can I install persistent memory and an FPGA in my system?</a>
+                    <div class="article-content uk-accordion-content link-primary"><h1 id="applies-to">Applies To</h1>
+
+<ul>
+  <li>Intel® Optane™ Persistent Memory</li>
+  <li>NVDIMM-N</li>
+  <li>FPGA</li>
+</ul>
+
+<h1 id="answer">Answer</h1>
+
+<p>It is recommended to seek advice from the server OEM/ODM directly. While it is possible to support FPGAs and persistent memory in the same system, several factors need to be considered which include, but are not limited to the following:</p>
+
+<ul>
+  <li>Server size (1U, 2U, 4U, etc)</li>
+  <li>Power Supplies</li>
+  <li>Internal and external cooling functions - Air cooled, liquid cooled, or hybrid</li>
+  <li>The type and quantity of persistent memory modules or devices within the system with their power &amp; thermal requirements</li>
+  <li>The make, model, and quantity of the FPGAs with its power and cooling requirements</li>
+</ul>
+
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Intel Optane Persistent Memory Operating System Support Matrix</a>
+                    <div class="article-content uk-accordion-content link-primary"><h1 id="applies-to">Applies To</h1>
+
+<ul>
+  <li>Intel® Optane™ Persistent Memory</li>
+  <li>Linux</li>
+  <li>Microsoft Windows</li>
+  <li>VMWare</li>
+</ul>
+
+<h1 id="compatible-operating-systems-for-intel-optane-persistent-memory">Compatible Operating Systems for Intel® Optane™ Persistent Memory</h1>
+
+<p>Intel® Optane™ persistent memory operating system (OS) mode support information.</p>
+
+<ul>
+  <li>The operating systems listed below have been verified by Intel and do <strong>not</strong> reflect the OS vendor support.</li>
+  <li>Please contact the respective OS vendor(s) for the exact release version providing the proper support..</li>
+  <li>For OS that are not listed, use open source code to generate necessary files.</li>
+</ul>
+
+<h3 id="operating-system-support">Operating System Support</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>OS Version</strong></th>
+      <th><strong>Memory Mode</strong></th>
+      <th><strong>App Direct Mode</strong></th>
+      <th><strong>Dual Mode</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>RHEL* 7.5</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Ubuntu* 16.04 LTS</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Windows* Server 2016</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Oracle* Linux* 7.6 with UEK R5 Update 2</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>VMware* vSphere 6.7 EP10</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>CentOS* 7.6 or later</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>RHEL 7.6 or later</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>SLES* 12 SP4 or later</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>SLES 15 or later</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Ubuntu 18.04 LTS</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Ubuntu 18.10 or later</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>VMWare* ESXi 6.7 U1 or later</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Windows 10 Pro for Workstation Version 1809 or later</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Windows Server 2019 or later</td>
+      <td>Yes</td>
+      <td>Yes</td>
+      <td>Yes</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Reference: <a href="https://www.intel.com/content/www/us/en/support/articles/000032860/memory-and-storage/data-center-persistent-memory.html?productId=190349&amp;localeCode=us_en" target="_blank">https://www.intel.com/content/www/us/en/support/articles/000032860/memory-and-storage/data-center-persistent-memory.html?productId=190349&amp;localeCode=us_en</a></p>
+
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">What is the SNIA NVM Programming Model?</a>
+                    <div class="article-content uk-accordion-content link-primary"><h1 id="answer">Answer</h1>
+
+<p>This <a href="https://www.snia.org/tech_activities/standards/curr_standards/npm">Storage Networking Industry Association (SNIA) Non-Volatile Memory (NVM) Programming model</a> was jointly developed between ~50 industry leading companies to address the ongoing proliferation of new non-volatile memory (otherwise known as persistent memory) functionality and new NVM technologies.  An extensible NVM Programming Model is necessary to enable an industry wide community of NVM producers and consumers to move forward together through a number of significant storage and memory system architecture changes.</p>
+
+<p>This specification defines recommended behavior between various user space and operating system (OS) kernel components supporting NVM. This specification does not describe a specific API. Instead, the intent is to enable common NVM behavior to be exposed by multiple operating system specific interfaces.</p>
+
+<p>After establishing context, the specification describes several operational modes of NVM access. Each mode is described in terms of use cases, actions and attributes that inform user and kernel space components of functionality that is provided by a given compliant implementation.</p>
+
+<p>The current version of the specification can be found on the SNIA website -  <a href="https://www.snia.org/tech_activities/standards/curr_standards/npm">SNIA NVM Programming Model</a>.</p>
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">What is Direct-Access (DAX)?</a>
+                    <div class="article-content uk-accordion-content link-primary"><h1 id="applies-to">Applies To</h1>
+
+<ul>
+  <li>Microsoft Windows</li>
+  <li>Linux</li>
+</ul>
+
+<h1 id="answer">Answer</h1>
+
+<p>Direct Access (DAX) enables direct access to files stored in persistent memory or on a block device.  Without DAX support in a file system, the page cache is generally used to buffer reads and writes to files, and requires an extra copy operation.</p>
+
+<p>DAX removes the extra copy operation by performing reads and writes directly to the storage device. It is also used to provide the pages that are mapped into a user space by a call to mmap.  For more information, refer to <a href="https://www.kernel.org/doc/Documentation/filesystems/dax.txt">Direct Access for Files</a>.</p>
+
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">What is PMDK (Persistent Memory Development Kit)?</a>
+                    <div class="article-content uk-accordion-content link-primary"><h1 id="answer">Answer</h1>
+
+<p>The <a href="http://pmem.io/pmdk/">Persistent Memory Development Kit (PMDK)</a>, formerly known as the Non-Volatile Memory Library (NVML), is a collection of libraries and tools designed to support development of persistent-memory-aware applications. The open source PMDK project currently supports ten libraries, which are targeted at various use cases for persistent memory with language support for C, C++, Java<em>, and Python</em>.  The PMDK also includes tools like the pmemcheck plug-in for the open source toolset, valgrind, and an increasing body of documentation, code examples, tutorials, and blog entries.  The libraries are tuned and validated to production quality and are issued with a license that allows their use in both open and closed source products.  The project continues to expand as new use cases are identified.</p>
+
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Why use PMDK (Persistent Memory Development Kit)?</a>
+                    <div class="article-content uk-accordion-content link-primary"><h1 id="answer">Answer</h1>
+
+<p>The <a href="http://pmem.io/pmdk/">Persistent Memory Development Kit (PMDK)</a> is designed to solve persistent memory challenges and facilitate the adoption of persistent memory programming. It offers developers well-tested, production-ready libraries and tools in a comprehensive implementation of the <a href="https://www.snia.org/tech_activities/standards/curr_standards/npm">Storage Networking Industry Association Non-Volatile Memory (SNIA NVM) programming model</a>.</p>
+</div>                
+                </li>
+            
+                <li>
+                    <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">What programming languages does PMDK (Persistent Memory Development Kit) support?</a>
+                    <div class="article-content uk-accordion-content link-primary"><h1 id="answer">Answer</h1>
+
+<p>The <a href="http://pmem.io/pmdk/">Persistent Memory Development Kit (PMDK)</a> core libraries provide C APIs.  Libraries such as <a href="https://pmem.io/pmdk/libpmemobj/">libpmemobj</a> provide C++ APIs. Higher level libraries such as <a href="https://github.com/pmem/pmemkv">libpmemkv</a>, a key-value store for persistent memory, support C, C++, Javascript, Java, Ruby, and Python.</p>
+</div>                
+                </li>
+            
+        </ul>
+
+    </div>
+</div>
+
+<!-- <div class="uk-section section-team">
+    <div class="uk-container uk-container-expand">
+
+        
+            <h2 class="uk-h1 uk-text-center">We are here to help</h2>
+        
+
+        <p class="uk-text-lead uk-text-center">Our team is just an email away ready to answer your questions</p>
+
+        <div class="uk-margin-medium-top uk-grid-small uk-flex-center uk-text-center uk-margin-medium-top" data-uk-grid>
+
+        
+
+        
+
+            
+
+            <div>
+                <div class="uk-card">
+                    
+                        
+
+                        <img class="uk-border-circle" src="https://kb.pmem.io/uploads/avatar-evan.png" alt="Evan Wells">
+                    
+                    <h5 class="uk-margin-remove-bottom uk-margin-top">Evan Wells</h5>
+                    <p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">Support</p>
+                </div>
+            </div>
+        
+
+            
+
+            <div>
+                <div class="uk-card">
+                    
+                        
+
+                        <img class="uk-border-circle" src="https://kb.pmem.io/uploads/avatar-john.png" alt="John Brown">
+                    
+                    <h5 class="uk-margin-remove-bottom uk-margin-top">John Brown</h5>
+                    <p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top">Support</p>
+                </div>
+            </div>
+        
+
+            
+
+            <div>
+                <div class="uk-card">
+                    
+                    <h5 class="uk-margin-remove-bottom uk-margin-top"></h5>
+                    <p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top"></p>
+                </div>
+            </div>
+        
+
+            
+
+            <div>
+                <div class="uk-card">
+                    
+                    <h5 class="uk-margin-remove-bottom uk-margin-top"></h5>
+                    <p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top"></p>
+                </div>
+            </div>
+        
+
+            
+
+            <div>
+                <div class="uk-card">
+                    
+                    <h5 class="uk-margin-remove-bottom uk-margin-top"></h5>
+                    <p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top"></p>
+                </div>
+            </div>
+        
+
+            
+
+            <div>
+                <div class="uk-card">
+                    
+                    <h5 class="uk-margin-remove-bottom uk-margin-top"></h5>
+                    <p class="uk-article-meta uk-margin-remove-bottom uk-margin-small-top"></p>
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+</div> -->
+
+<div class="uk-section uk-text-center">
+    <div class="uk-container uk-container-small">
+        <div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
+            <h2 class="uk-h1 uk-margin-bottom">Didn't find an answer?</h2>
+            <p class="uk-text-lead uk-text-center">The persistent memory community is here to help</p>
+            <a class="uk-button uk-button-primary uk-button-large uk-margin-medium-top" href="https://groups.google.com/forum/#!forum/pmem">Ask the Community</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+
+        
+        <h5 class="uk-margin-top">Getting Started</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/installation/">Theme installation</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/setup/">Basic theme setup</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/navigation/">Navigation bar</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/footer/">Footer options</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/posts/">Creating your first post in Jekyll</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/docs/">Creating docs posts</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/comments/">Enabling comments (via Disqus)</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/analytics/">Google Analytics</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Theme Features</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/hero/">Hero page header</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/boxes/">Category boxes section</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/featured/">Fearured docs section</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/videos/">Video lightbox boxes section</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/faq/">Frequently asked questions section</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/team/">Team members section</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/cta/">Call to action section</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/changelog/">Creating a changelog</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/contact/">Contact form (via FormSpree)</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/media/">Adding media to post and doc content</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/toc/">Adding table of contents to docs</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/alerts/">Adding alerts to content</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Customization</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/translation/">Translation</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/customize/">Customization</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/development/">Development</a></li>
+        
+          
+          
+          <li class=""><a href="/docs/sources/">Sources and credits</a></li>
+        
+        </ul>
+        
+        <h5 class="uk-margin-top">Help</h5>
+        <ul class="uk-nav uk-nav-default doc-nav">
+        
+          
+          
+          <li class=""><a href="/docs/support/">Contacting support</a></li>
+        
+        </ul>
+        
+
+    </div>
+</div>
+
+
+    <div id="offcanvas" data-uk-offcanvas="flip: true; overlay: true">
+    <div class="uk-offcanvas-bar">
+
+        <a class="uk-logo uk-margin-small-bottom" href="/">kb.pmem.io</a>
+     
+        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
+      
+        <ul class="uk-nav uk-nav-primary uk-margin-top">
+            
+                
+
+                
+
+                
+                    <li class="uk-active"><a href="/" >Home</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="" >Knowledge Base</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="https://docs.pmem.io/" target="_blank" >Docs</a></li>
+                
+            
+                
+
+                
+
+                
+                    <li><a href="https://pmem.io/blog/" target="_blank" >Blog</a></li>
+                
+            
+        </ul>
+
+        <div class="uk-margin-top uk-text-center">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+    
+        <!-- Footer -->
+<footer class="uk-section uk-text-center uk-text-muted">
+    <div class="uk-container uk-container-small">
+
+	<!-- Site navigation links -->
+        <div>
+            <ul class="uk-subnav uk-flex-center">
+                
+            </ul>
+        </div>
+	<!-- Social Media Links -->
+        <div class="uk-margin-medium">
+            <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+	<!-- Copyright notice -->
+        <div class="uk-margin-medium uk-text-small copyright link-secondary">
+	    Copyright&copy; kb.pmem.io 2020. All rights reserved.
+	    <!--  -->
+	</div>
+
+    </div>
+</footer>
+<!-- End of Footer -->
+
+    
+
+    
+
+    
+
+    </body>
+
+</html>

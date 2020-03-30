@@ -1,0 +1,624 @@
+[
+  
+    
+      {
+        "title"    : "001 - Alert Doc",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/alert/001/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "001 - Announcement Doc",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/announcement/001/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "Microsoft SQL Server 2019",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, microsoft, sql, sql server, 2019, imdb, in-memory database, database",
+        "url"      : "/apps/100000024-Microsoft-SQL-Server-2019/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "November Update",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/changelogs/changelog-1/",
+        "date"     : "2018-11-11 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "🚧 January Updates v1.0.5",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/changelogs/changelog-2/",
+        "date"     : "2019-01-17 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "February Updates",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/changelogs/changelog-3/",
+        "date"     : "2019-02-02 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "🚀 April Updates",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/changelogs/changelog-4/",
+        "date"     : "2019-04-22 00:00:00 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "Why msync() is less optimal for persistent memory",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, msync",
+        "url"      : "/development/100000025-Why-msync-is-less-optimal-for-persistent-memory/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "Adding alerts to content",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/docs/alerts/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Google Analytics",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/docs/analytics/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Category boxes section",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/docs/boxes/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Creating a changelog",
+        "category" : "",
+        "tags"     : "setup",
+        "url"      : "/docs/changelog/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Enabling comments (via Disqus)",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/docs/comments/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Contact form (via FormSpree)",
+        "category" : "",
+        "tags"     : "setup",
+        "url"      : "/docs/contact/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Call to action section",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/docs/cta/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Customization",
+        "category" : "",
+        "tags"     : "customize",
+        "url"      : "/docs/customize/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Development",
+        "category" : "",
+        "tags"     : "customize",
+        "url"      : "/docs/development/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Creating docs posts",
+        "category" : "",
+        "tags"     : "setup",
+        "url"      : "/docs/docs/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Frequently asked questions section",
+        "category" : "",
+        "tags"     : "features, featured",
+        "url"      : "/docs/faq/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Fearured docs section",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/docs/featured/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Footer options",
+        "category" : "",
+        "tags"     : "setup",
+        "url"      : "/docs/footer/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Hero page header",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/docs/hero/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Theme installation",
+        "category" : "",
+        "tags"     : "setup",
+        "url"      : "/docs/installation/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Adding media to post and doc content",
+        "category" : "",
+        "tags"     : "features, featured",
+        "url"      : "/docs/media/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Navigation bar",
+        "category" : "",
+        "tags"     : "setup",
+        "url"      : "/docs/navigation/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Updating your billing credit card",
+        "category" : "",
+        "tags"     : "othertag",
+        "url"      : "/docs/pages/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Creating your first post in Jekyll",
+        "category" : "",
+        "tags"     : "featured",
+        "url"      : "/docs/posts/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Basic theme setup",
+        "category" : "",
+        "tags"     : "setup",
+        "url"      : "/docs/setup/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Sources and credits",
+        "category" : "",
+        "tags"     : "customize",
+        "url"      : "/docs/sources/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Contacting support",
+        "category" : "",
+        "tags"     : "help, customize",
+        "url"      : "/docs/support/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Team members section",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/docs/team/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Adding table of contents to docs",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/docs/toc/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Translation",
+        "category" : "",
+        "tags"     : "customize",
+        "url"      : "/docs/translation/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Video lightbox boxes section",
+        "category" : "",
+        "tags"     : "features, featured",
+        "url"      : "/docs/videos/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+    ,
+  
+    
+      {
+        "title"    : "Can I install persistent memory and a GPU in my system?",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, gpu",
+        "url"      : "/faq/100000003-Can-I-install-persistent-memory-and-a-GPU-in-my-system/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Can I install persistent memory and an FPGA in my system?",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, fpga",
+        "url"      : "/faq/100000004-Can-I-install-persistent-memory-and-an-FPGA-in-my-system/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Intel Optane Persistent Memory Operating System Support Matrix",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/faq/100000006-Intel-Optane-Persistent-Memory-Operating-System-Support-Matrix/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "What is the SNIA NVM Programming Model?",
+        "category" : "",
+        "tags"     : "faq, snia, nvm, programming model",
+        "url"      : "/faq/100000007-What-is-the-SNIA-NVM-Programming-Model/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "What is Direct-Access (DAX)?",
+        "category" : "",
+        "tags"     : "dax, direct access",
+        "url"      : "/faq/100000008-What-is-DAX/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "What is PMDK (Persistent Memory Development Kit)?",
+        "category" : "",
+        "tags"     : "faq, pmdk",
+        "url"      : "/faq/100000009-What-is-PMDK/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Why use PMDK (Persistent Memory Development Kit)?",
+        "category" : "",
+        "tags"     : "pmdk, persistent memory development kit, developer",
+        "url"      : "/faq/100000010-Why-use-PMDK/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "What programming languages does PMDK (Persistent Memory Development Kit) support?",
+        "category" : "",
+        "tags"     : "pmdk, programming, languages",
+        "url"      : "/faq/100000011-What-languages-does-PMDK-support/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "001 - Getting Started",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/getting_started/001/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "How To Emulate Persistent Memory using the Linux &quot;memmap&quot; Kernel Option",
+        "category" : "",
+        "tags"     : "linux, kernel, memmap, emulate, persistent memory, pmem",
+        "url"      : "/howto/100000012-How-To-Emulate-Persistent-Memory-using-the-Linux-memmapKernel-Option/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "How To Install NDCTL and DAXCTL Packages on Red Hat Enterprise Linux (RHEL) and CentOS 7",
+        "category" : "",
+        "tags"     : "setup, install, configure, ndctl, daxctl",
+        "url"      : "/howto/100000013-How-To-Install-NDCTL-and-DAXCTL-Packages-on-CentOS-RHEL/",
+        "date"     : "2019-06-18 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "How To Install NDCTL and DAXCTL Packages on Fedora",
+        "category" : "",
+        "tags"     : "setup, install, configure, ndctl, daxctl",
+        "url"      : "/howto/100000014-How-To-Install-NDCTL-and-DAXCTL-Packages-on-Fedora/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "How To Install NDCTL and DAXCTL Packages on Ubuntu",
+        "category" : "",
+        "tags"     : "howto, setup, install, configure, ndctl, daxctl",
+        "url"      : "/howto/100000015-How-To-Install-NDCTL-and-DAXCTL-Packages-on-Ubuntu/",
+        "date"     : "2019-06-18 00:00:00 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "Welcome to Jekyll!",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/welcome-to-jekyll/",
+        "date"     : "2019-09-20 01:00:32 +0000"
+      } ,
+    
+      {
+        "title"    : "Getting a JavaScript console error",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post7/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Selecting the right fonts and colors",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post63/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Design tips for choosing great images",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post62/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Upgrading to paid service",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post61/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Purchasing domain name and DNS setup",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post60/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Using Private Browsing or Incognito mode",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post6/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Accepted currencies for product billing",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post5/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Cancelling a website subscription",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post4/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Updating your billing credit card",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post3/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Understanding company billing and accounts",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post2/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Setting up new domain and page",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post1/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "Getting started with our application",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post0/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } ,
+    
+      {
+        "title"    : "How To Setup Naked Domain SSL With Github Pages",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/post/",
+        "date"     : "2017-05-25 00:00:00 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "Mounting a DAX XFS file system can return &quot;wrong fs type, bad option, bad superblock, missing code page or helper program, or other error&quot;",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, dax, xfs, mkfs, fsck, xfs_repair",
+        "url"      : "/problem/100000005-Mounting-a-DAX-XFS-file-system-can-return-wrong-fs-type,-bad-option,-bad-superblock,-missing-code-page-or-helper-program/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "dmesg reports &quot;DAX unsupported by block device. Turning off DAX.&quot; during boot or mounting file systems",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, dax, mount",
+        "url"      : "/problem/100000016-DAX-unsupported-by-block-device.-Turning-off-DAX.seen-in-dmesg-during-boot-or-mounting-file-systems/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Executing &quot;ndctl disable-dimm nmem0&quot; returns &quot;nmem0 is active, skipping..&quot;",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, ndctl",
+        "url"      : "/problem/100000017-ndctl-disable-dimm-nmemreturns-nmem0-is-active-skipping/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "ndctl returns &quot;error while loading shared libraries. libjson-c.so.2. cannot open shared object file. No such file or directory&quot;",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, ndctl, library",
+        "url"      : "/problem/100000018-ndctl-returns-error-while-loading-shared-libraries-libjson-c.so.2-cannot-open-shared-object-file-No-such-file-or-dire/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Executing &quot;ndctl destroy-namespace&quot; returns &quot;Error. namespace0.0 is active, specify --force for re-configuration&quot;",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, ndctl, destroy",
+        "url"      : "/problem/100000019-ndctl-destroy-namespacereturns-Error-namespace0.0-is-active-specify---force-for-re-configuration/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Executing &quot;ndctl create-namespace&quot; returns &quot;failed to create namespace. Resource temporarily unavailable&quot;",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, ndctl, create",
+        "url"      : "/problem/100000020-ndctl-create-namespacereturns-failed-to-create-namespace-Resource-temporarily-unavailable/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Executing &#39;man -k ndctl&#39; returns &quot;ndctl. nothing appropriate.&quot;",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, ndctl, man",
+        "url"      : "/problem/100000021-man--k-ndctlreturns-ndctl-nothing-appropriate/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Executing &quot;ipmctl delete -dimm&quot; returns &quot;Erase failed. Error (290) - Unsupported&quot;",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, ipmctl, sanitize, secure erase",
+        "url"      : "/problem/100000022-ipmctl-delete--dimm-returns-Erase-failed-Error-290---Unsupported/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } ,
+    
+      {
+        "title"    : "Executing &quot;ndctl sanitize-dimm&quot; returns &quot;security operation not supported&quot;",
+        "category" : "",
+        "tags"     : "persistent memory, pmem, ndctl, sanitize, secure erase",
+        "url"      : "/problem/100000023-ndctl-sanitize-dimm-returns-security-operation-not-supported/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "001 - Setup Doc",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/setup/001/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+      {
+        "title"    : "001 - Troubleshooting 101",
+        "category" : "",
+        "tags"     : "features",
+        "url"      : "/troubleshooting/001/",
+        "date"     : "2020-03-30 20:31:03 +0000"
+      } 
+    
+    ,
+  
+    
+    
+  
+]
